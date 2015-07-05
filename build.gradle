@@ -20,8 +20,8 @@ buildscript {
 }
 
 jar {
-    baseName = 'spring-boot-sample-actuator'
-    version =  '1.0.0'
+    baseName = "${archivesBaseName}"
+    version =  "${version}"
 }
 
 repositories {
